@@ -29,6 +29,7 @@ AnimalKingdom.kangaroo = function(name) {
 
 
 var jester = AnimalKingdom.kangaroo("Jester");
+console.log(typeof AnimalKingdom);
 console.log("Hop",jester.hop());
 console.log("Awake",jester.isAwake(true));
 console.log("Instance of Kangaroo",jester instanceof AnimalKingdom.kangaroo);
